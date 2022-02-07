@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "Denis Efremenko <denvirus83@mail.ru>",
   "license": "MIT",
-  "private": "true",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
