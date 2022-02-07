@@ -1,4 +1,4 @@
-# hw-events [![Build status](https://ci.appveyor.com/api/projects/status/30h4owxqok3l6h2v?svg=true)](https://ci.appveyor.com/project/DenViRus/ahj-event)
+# hw-events [![Build status](https://ci.appveyor.com/api/projects/status/30h4owxqok3l6h2v?svg=true)](https://ci.appveyor.com/project/DenViRus/ahj-event) [[Github Pages](https://denvirus.github.io/ahj-event/)]
 
 1. **Важно**: в рамках этого ДЗ нужно использовать менеджер пакетов yarn (а значит, никакого `package-lock.json` в репозитории быть не должно)
 1. **Важно**: всё должно собираться через Webpack (включая картинки и стили) и выкладываться на Github Pages через Appveyor.
