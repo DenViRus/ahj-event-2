@@ -2,7 +2,7 @@ import GameField from './GameField.js';
 import GamePlay from './GamePlay.js';
 
 const container = document.getElementById('mainContainer');
-const gameField = new GameField(container, 6, 6);
+const gameField = new GameField(container, 5, 5);
 gameField.drawGameField();
 
 const dataContainer = document.getElementById('mainContainer');

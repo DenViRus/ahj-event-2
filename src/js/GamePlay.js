@@ -35,8 +35,8 @@ export default class GamePlay {
 
   changeImage() {
     this.scoreTable = this.container.querySelector('.score-table');
-    const hit = this.scoreTable.querySelectorAll('.score-table-data-cell')[0];
-    const miss = this.scoreTable.querySelectorAll('.score-table-data-cell')[1];
+    const miss = this.scoreTable.querySelectorAll('.score-table-data-cell')[0];
+    const hit = this.scoreTable.querySelectorAll('.score-table-data-cell')[1];
     this.hitCell = hit;
     this.missCell = miss;
 
@@ -114,7 +114,7 @@ export default class GamePlay {
       if (this.runInterval === 'run') {
         this.intervalChanging = setInterval(() => {
           this.changeImage();
-        }, 1000);
+        }, 2000);
 
         this.stopButton.addEventListener('click', this.stopButtonListener1);
         this.runInterval = 'stop';
