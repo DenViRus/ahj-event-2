@@ -114,7 +114,7 @@ export default class GamePlay {
       if (this.runInterval === 'run') {
         this.intervalChanging = setInterval(() => {
           this.changeImage();
-        }, 2000);
+        }, 1000);
 
         this.stopButton.addEventListener('click', this.stopButtonListener1);
         this.runInterval = 'stop';
