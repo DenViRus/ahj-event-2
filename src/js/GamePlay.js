@@ -104,7 +104,7 @@ export default class GamePlay {
         }
       }
       this.hitCell.textContent = 30;
-      this.missCell.textContent = 30;
+      this.missCell.textContent = 15;
       this.points = null;
     };
 
@@ -114,7 +114,7 @@ export default class GamePlay {
       if (this.runInterval === 'run') {
         this.intervalChanging = setInterval(() => {
           this.changeImage();
-        }, 3000);
+        }, 2000);
 
         this.stopButton.addEventListener('click', this.stopButtonListener1);
         this.runInterval = 'stop';
@@ -134,6 +134,7 @@ export default class GamePlay {
         this.killEnemy = true;
         aim.src = netology;
         this.hitCell.textContent = parseFloat(this.hitCell.textContent) - this.points;
+        this.finishGame();
       }
     };
     this.gameTable.addEventListener('click', gameTablelistener1);
@@ -157,7 +158,7 @@ export default class GamePlay {
       }
       this.runInterval = 'run';
       this.hitCell.textContent = 30;
-      this.missCell.textContent = 30;
+      this.missCell.textContent = 15;
       this.points = null;
     };
     closeButtonfinish.addEventListener('click', closeButtonListener1);

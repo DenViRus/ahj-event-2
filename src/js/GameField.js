@@ -55,7 +55,7 @@ export default class GameField {
       dataCell.style.width = '60px';
       dataCell.style.textAlign = 'center';
     });
-    scoreDataingCells[0].textContent = 30;
+    scoreDataingCells[0].textContent = 15;
 
     scoreDataingCells[1].textContent = 30;
 
