@@ -7,5 +7,6 @@ gameField.drawGameField();
 
 const dataContainer = document.getElementById('mainContainer');
 const gamePlay = new GamePlay(dataContainer);
+gamePlay.getData();
 gamePlay.startStopGame();
 gamePlay.huntEnemies();
