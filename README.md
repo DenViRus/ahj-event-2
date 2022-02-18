@@ -1,4 +1,4 @@
-# hw-events
+# hw-events [![Build status](https://ci.appveyor.com/api/projects/status/x9c53by14idfnlt9?svg=true)](https://ci.appveyor.com/project/DenViRus/ahj-event-2)
 
 <!-- [![Build status](https://ci.appveyor.com/api/projects/status/30h4owxqok3l6h2v?svg=true)](https://ci.appveyor.com/project/DenViRus/ahj-event) [[Github Pages](https://denvirus.github.io/ahj-event/)] -->
 
